@@ -1,0 +1,97 @@
+/* Reset básico */
+* {
+  margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          line-height: 1.6;
+            background-color: #ffffff;
+              color: #333;
+              }
+
+              header {
+                background-color: #2e7d32;
+                  color: #fff;
+                    padding: 20px;
+                      position: sticky;
+                        top: 0;
+                          z-index: 1000;
+                            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                            }
+
+                            header h1 {
+                              font-size: 28px;
+                              }
+
+                              nav {
+                                margin-top: 10px;
+                                }
+
+                                nav a {
+                                  color: #fff;
+                                    margin-right: 15px;
+                                      text-decoration: none;
+                                        font-weight: bold;
+                                        }
+
+                                        nav a:hover {
+                                          text-decoration: underline;
+                                          }
+
+                                          section {
+                                            padding: 60px 20px;
+                                              max-width: 1000px;
+                                                margin: auto;
+                                                }
+
+                                                section h2,
+                                                section h3 {
+                                                  color: #2e7d32;
+                                                    margin-bottom: 20px;
+                                                    }
+
+                                                    section p,
+                                                    section li {
+                                                      font-size: 18px;
+                                                        margin-bottom: 10px;
+                                                        }
+
+                                                        ul {
+                                                          list-style-type: disc;
+                                                            padding-left: 20px;
+                                                            }
+
+                                                            form input,
+                                                            form textarea {
+                                                              width: 100%;
+                                                                padding: 10px;
+                                                                  margin-bottom: 15px;
+                                                                    border: 1px solid #ccc;
+                                                                      border-radius: 5px;
+                                                                        font-size: 16px;
+                                                                        }
+
+                                                                        form button {
+                                                                          background-color: #2e7d32;
+                                                                            color: white;
+                                                                              border: none;
+                                                                                padding: 10px 20px;
+                                                                                  font-size: 16px;
+                                                                                    cursor: pointer;
+                                                                                      border-radius: 5px;
+                                                                                      }
+
+                                                                                      form button:hover {
+                                                                                        background-color: #1b5e20;
+                                                                                        }
+
+                                                                                        footer {
+                                                                                          background-color: #1b5e20;
+                                                                                            color: white;
+                                                                                              text-align: center;
+                                                                                                padding: 15px;
+                                                                                                  font-size: 14px;
+                                                                                                  }
